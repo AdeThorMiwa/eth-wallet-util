@@ -1,6 +1,6 @@
 {
   "name": "eth-wallet-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Eth wallet library",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -16,8 +16,13 @@
     "test": "tsdx test",
     "prepublishOnly": "tsdx build"
   },
-  "keywords": [],
-  "repository": "git@gitlab.com:bitpowr/ethwalletutil.git",
+  "keywords": [
+    "ethereum",
+    "erc20",
+    "wallet",
+    "eth"
+  ],
+  "repository": "https://github.com/AdeThorMiwa/eth-wallet-util.git",
   "author": "bitpowr",
   "license": "ISC",
   "dependencies": {
